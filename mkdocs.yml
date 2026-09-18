@@ -1,0 +1,44 @@
+site_name: AI System 原理 —— 从一个 Token，到一个 AI System
+site_description: 从一个 Token 出发，逐个零件回答「为什么一个 AI System 需要它」
+site_url: https://yiyan-yixing.github.io/ai-system-book/
+repo_url: https://github.com/yiyan-yixing/ai-system-book
+repo_name: yiyan-yixing/ai-system-book
+docs_dir: .site-src
+site_dir: .site-build
+use_directory_urls: false
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+plugins:
+  - search:
+      lang: [zh, en]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.superfences
