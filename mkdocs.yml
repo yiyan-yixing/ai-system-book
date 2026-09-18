@@ -157,7 +157,7 @@
     "repo": "https://github.com/yiyan-yixing/ai-system-book"
     "site_url": "https://yiyan-yixing.github.io/ai-system-book/"
     "prelude_cta": "正文/00-序章.html"
-    "ready": 1
+    "ready": 13
     "total": 34
     "chapters": 15
     "sibling_title": "一人公司：把一个人的边界，扩成一家公司"
@@ -168,7 +168,7 @@
       "theme": ""
       "part": "上篇 · 零件：从一个 Token，到一个模型"
       "url": "正文/第01章-Token-与向量/index.html"
-      "ready": 0
+      "ready": 1
       "total": 2
     - "num": "第二章"
       "name": "神经网络在学什么"
@@ -217,54 +217,54 @@
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第08章-Small-Model/index.html"
-      "ready": 0
+      "ready": 1
       "total": 1
     - "num": "第九章"
       "name": "Model Pool / Router"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第09章-Model-Pool-Router/index.html"
-      "ready": 0
+      "ready": 2
       "total": 2
     - "num": "第十章"
       "name": "Context"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第10章-Context/index.html"
-      "ready": 0
+      "ready": 1
       "total": 1
     - "num": "第十一章"
       "name": "Knowledge / Graph · Memory"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第11章-Knowledge-Graph-Memory/index.html"
-      "ready": 0
+      "ready": 1
       "total": 1
     - "num": "第十二章"
       "name": "Agent"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第12章-Agent/index.html"
-      "ready": 0
+      "ready": 2
       "total": 2
     - "num": "第十三章"
       "name": "Harness"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第13章-Harness/index.html"
-      "ready": 0
+      "ready": 1
       "total": 1
     - "num": "第十四章"
       "name": "Evaluation 与闭环"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第14章-Evaluation-与闭环/index.html"
-      "ready": 0
+      "ready": 2
       "total": 2
     - "num": "第十五章"
       "name": "AI System"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
       "url": "正文/第15章-AI-System/index.html"
-      "ready": 0
+      "ready": 1
       "total": 1

@@ -5,7 +5,7 @@ status: planned
 <div class="bk-chapter-head">
 <div class="bk-chapter-num">第四章 · 上篇 · 零件：从一个 Token，到一个模型</div>
 <h1 class="bk-chapter-name">稀疏与高效<span class="bk-chapter-theme">让大模型跑得动</span></h1>
-<p class="bk-chapter-meta">本章 3 节 · 已发布 0 节 · 全书 34 节 · 已发布 1 节</p>
+<p class="bk-chapter-meta">本章 3 节 · 已发布 0 节 · 全书 34 节 · 已发布 13 节</p>
 </div>
 
 <div class="bk-progress"><span class="bk-mini">本章进度</span><span class="bk-progress__bar"><span class="bk-progress__fill" style="width:0%"></span></span><span class="bk-mini">0%</span></div>
