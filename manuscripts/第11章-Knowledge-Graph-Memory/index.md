@@ -13,7 +13,7 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">27</span><span class="bk-section-row__title"><a href="27-组织记忆.md">组织记忆：从文件夹到图谱</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">27</span><span class="bk-section-row__title"><a href="27-组织记忆.html">组织记忆：从文件夹到图谱</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

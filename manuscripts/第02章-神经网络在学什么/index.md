@@ -13,9 +13,9 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">03</span><span class="bk-section-row__title"><a href="03-神经网络学到了什么.md">神经网络学到了什么：哪些参数是白养的</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">04</span><span class="bk-section-row__title"><a href="04-Loss与反向传播.md">Loss / 反向传播：错怎么摊回每个参数</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">05</span><span class="bk-section-row__title"><a href="05-优化器与归一化.md">优化器与归一化：RMSNorm、残差、学习率</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">03</span><span class="bk-section-row__title"><a href="03-神经网络学到了什么.html">神经网络学到了什么：哪些参数是白养的</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">04</span><span class="bk-section-row__title"><a href="04-Loss与反向传播.html">Loss / 反向传播：错怎么摊回每个参数</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">05</span><span class="bk-section-row__title"><a href="05-优化器与归一化.html">优化器与归一化：RMSNorm、残差、学习率</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

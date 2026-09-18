@@ -13,8 +13,8 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">31</span><span class="bk-section-row__title"><a href="31-Evaluation与Gate.md">Evaluation / Gate：没有闸门等于没有系统</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">32</span><span class="bk-section-row__title"><a href="32-闭环与反馈.md">闭环 / 反馈：同一个坑摔两次</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">31</span><span class="bk-section-row__title"><a href="31-Evaluation与Gate.html">Evaluation / Gate：没有闸门等于没有系统</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">32</span><span class="bk-section-row__title"><a href="32-闭环与反馈.html">闭环 / 反馈：同一个坑摔两次</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

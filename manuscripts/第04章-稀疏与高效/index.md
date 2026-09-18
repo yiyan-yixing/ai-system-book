@@ -13,9 +13,9 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">13</span><span class="bk-section-row__title"><a href="13-MoE稀疏化.md">MoE 稀疏化：参数多、算得少</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">14</span><span class="bk-section-row__title"><a href="14-KV-cache与高效注意力.md">KV cache 与高效注意力：上下文为什么贵</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">15</span><span class="bk-section-row__title"><a href="15-量化.md">量化：4-bit 之后还剩多少</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">13</span><span class="bk-section-row__title"><a href="13-MoE稀疏化.html">MoE 稀疏化：参数多、算得少</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">14</span><span class="bk-section-row__title"><a href="14-KV-cache与高效注意力.html">KV cache 与高效注意力：上下文为什么贵</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">15</span><span class="bk-section-row__title"><a href="15-量化.html">量化：4-bit 之后还剩多少</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

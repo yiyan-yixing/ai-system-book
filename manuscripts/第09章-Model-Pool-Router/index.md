@@ -13,8 +13,8 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">24</span><span class="bk-section-row__title"><a href="24-Model-Pool.md">Model Pool：为什么一个模型不够</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">25</span><span class="bk-section-row__title"><a href="25-Router.md">Router：把对的活派给对的模型</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">24</span><span class="bk-section-row__title"><a href="24-Model-Pool.html">Model Pool：为什么一个模型不够</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">25</span><span class="bk-section-row__title"><a href="25-Router.html">Router：把对的活派给对的模型</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

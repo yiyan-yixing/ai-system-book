@@ -13,8 +13,8 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">01</span><span class="bk-section-row__title"><a href="01-Token.md">Token：你和模型之间唯一的通货</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">02</span><span class="bk-section-row__title"><a href="02-Embedding.md">Embedding：从一个数字到一个向量</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">01</span><span class="bk-section-row__title"><a href="01-Token.html">Token：你和模型之间唯一的通货</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">02</span><span class="bk-section-row__title"><a href="02-Embedding.html">Embedding：从一个数字到一个向量</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

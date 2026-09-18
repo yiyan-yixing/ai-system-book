@@ -13,8 +13,8 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">21</span><span class="bk-section-row__title"><a href="21-从零写一个小GPT.md">从零写一个小 GPT</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">22</span><span class="bk-section-row__title"><a href="22-小规模scaling实验.md">小规模 scaling 实验</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">21</span><span class="bk-section-row__title"><a href="21-从零写一个小GPT.html">从零写一个小 GPT</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">22</span><span class="bk-section-row__title"><a href="22-小规模scaling实验.html">小规模 scaling 实验</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目

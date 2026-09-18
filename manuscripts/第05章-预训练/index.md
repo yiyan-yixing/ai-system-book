@@ -13,8 +13,8 @@ status: planned
 ## 本章目录
 
 <div class="bk-sections">
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">16</span><span class="bk-section-row__title"><a href="16-预训练在训练什么.md">预训练在训练什么：下一个 token 预测</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
-<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">17</span><span class="bk-section-row__title"><a href="17-Scaling-Law与数据.md">Scaling Law 与数据：词表大小为何影响能力</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">16</span><span class="bk-section-row__title"><a href="16-预训练在训练什么.html">预训练在训练什么：下一个 token 预测</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
+<div class="bk-section-row bk-section-row--writing"><span class="bk-section-row__num">17</span><span class="bk-section-row__title"><a href="17-Scaling-Law与数据.html">Scaling Law 与数据：词表大小为何影响能力</a></span><span class="bk-section-row__state"><span class="bk-state-dot bk-state-dot--writing"></span>写作中</span></div>
 </div>
 
 ## 本章收尾栏目
