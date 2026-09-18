@@ -156,7 +156,7 @@
     "imprint": "言行致远"
     "repo": "https://github.com/yiyan-yixing/ai-system-book"
     "site_url": "https://yiyan-yixing.github.io/ai-system-book/"
-    "prelude_cta": "正文/00-序章.md"
+    "prelude_cta": "正文/00-序章.html"
     "ready": 1
     "total": 34
     "chapters": 15
@@ -167,104 +167,104 @@
       "name": "Token 与向量"
       "theme": ""
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第01章-Token-与向量/index.md"
+      "url": "正文/第01章-Token-与向量/index.html"
       "ready": 0
       "total": 2
     - "num": "第二章"
       "name": "神经网络在学什么"
       "theme": ""
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第02章-神经网络在学什么/index.md"
+      "url": "正文/第02章-神经网络在学什么/index.html"
       "ready": 0
       "total": 3
     - "num": "第三章"
       "name": "Transformer"
       "theme": "一个架构改变一切"
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第03章-Transformer/index.md"
+      "url": "正文/第03章-Transformer/index.html"
       "ready": 0
       "total": 7
     - "num": "第四章"
       "name": "稀疏与高效"
       "theme": "让大模型跑得动"
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第04章-稀疏与高效/index.md"
+      "url": "正文/第04章-稀疏与高效/index.html"
       "ready": 0
       "total": 3
     - "num": "第五章"
       "name": "预训练"
       "theme": "模型怎么学"
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第05章-预训练/index.md"
+      "url": "正文/第05章-预训练/index.html"
       "ready": 0
       "total": 2
     - "num": "第六章"
       "name": "后训练与对齐"
       "theme": ""
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第06章-后训练与对齐/index.md"
+      "url": "正文/第06章-后训练与对齐/index.html"
       "ready": 0
       "total": 3
     - "num": "第七章"
       "name": "本地训练"
       "theme": "亲手造一个"
       "part": "上篇 · 零件：从一个 Token，到一个模型"
-      "url": "正文/第07章-本地训练/index.md"
+      "url": "正文/第07章-本地训练/index.html"
       "ready": 0
       "total": 2
     - "num": "第八章"
       "name": "Small Model"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第08章-Small-Model/index.md"
+      "url": "正文/第08章-Small-Model/index.html"
       "ready": 0
       "total": 1
     - "num": "第九章"
       "name": "Model Pool / Router"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第09章-Model-Pool-Router/index.md"
+      "url": "正文/第09章-Model-Pool-Router/index.html"
       "ready": 0
       "total": 2
     - "num": "第十章"
       "name": "Context"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第10章-Context/index.md"
+      "url": "正文/第10章-Context/index.html"
       "ready": 0
       "total": 1
     - "num": "第十一章"
       "name": "Knowledge / Graph · Memory"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第11章-Knowledge-Graph-Memory/index.md"
+      "url": "正文/第11章-Knowledge-Graph-Memory/index.html"
       "ready": 0
       "total": 1
     - "num": "第十二章"
       "name": "Agent"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第12章-Agent/index.md"
+      "url": "正文/第12章-Agent/index.html"
       "ready": 0
       "total": 2
     - "num": "第十三章"
       "name": "Harness"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第13章-Harness/index.md"
+      "url": "正文/第13章-Harness/index.html"
       "ready": 0
       "total": 1
     - "num": "第十四章"
       "name": "Evaluation 与闭环"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第14章-Evaluation-与闭环/index.md"
+      "url": "正文/第14章-Evaluation-与闭环/index.html"
       "ready": 0
       "total": 2
     - "num": "第十五章"
       "name": "AI System"
       "theme": ""
       "part": "下篇 · 系统：从一个模型，到一个 AI System"
-      "url": "正文/第15章-AI-System/index.md"
+      "url": "正文/第15章-AI-System/index.html"
       "ready": 0
       "total": 1
