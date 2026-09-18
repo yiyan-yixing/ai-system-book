@@ -77,9 +77,12 @@ agent、harness、评估闸门。补完回头一看，这些零件今天都有�
 ```bash
 pip install -r requirements.txt
 mkdir -p .site-src/正文
-cp README.md .site-src/index.md
-cp manuscripts/*.md .site-src/正文/
+cp -r manuscripts/. .site-src/正文/
 cp archive/outlines/outline.md .site-src/目录大纲.md
-if [ -d manuscripts/assets ]; then cp -r manuscripts/assets .site-src/正文/assets; fi
+cp index.md .site-src/index.md
+cp -r assets .site-src/assets
 mkdocs serve
 ```
+
+> 正文按章分目录（`正文/第NN章-章名/`），章导语页是该目录下的 `index.md`；站点首页是封面页
+> `index.md`（由 `overrides/home.html` 渲染，数据来自 `mkdocs.yml` 的 `extra.*`）。

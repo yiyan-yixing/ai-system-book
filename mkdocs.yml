@@ -1,44 +1,270 @@
-site_name: AI System 原理 —— 从一个 Token，到一个 AI System
-site_description: 从一个 Token 出发，逐个零件回答「为什么一个 AI System 需要它」
-site_url: https://yiyan-yixing.github.io/ai-system-book/
-repo_url: https://github.com/yiyan-yixing/ai-system-book
-repo_name: yiyan-yixing/ai-system-book
-docs_dir: .site-src
-site_dir: .site-build
-use_directory_urls: false
-theme:
-  name: material
-  language: zh
-  features:
-    - navigation.top
-    - navigation.footer
-    - search.highlight
-    - search.suggest
-    - content.code.copy
-  palette:
-    - scheme: default
-      primary: blue grey
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: 切换深色模式
-    - scheme: slate
-      primary: blue grey
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: 切换浅色模式
-plugins:
-  - search:
-      lang: [zh, en]
-markdown_extensions:
-  - admonition
-  - attr_list
-  - footnotes
-  - tables
-  - toc:
-      permalink: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
+"docs_dir": ".site-src"
+"site_dir": ".site-build"
+"use_directory_urls": false
+"theme":
+  "name": "material"
+  "language": "zh"
+  "font": false
+  "custom_dir": "overrides"
+  "logo": "assets/mark.svg"
+  "favicon": "assets/favicon.svg"
+  "palette":
+    - "scheme": "default"
+      "primary": "custom"
+      "accent": "custom"
+      "toggle":
+        "icon": "material/weather-night"
+        "name": "浅色 / 深色"
+    - "scheme": "slate"
+      "primary": "custom"
+      "accent": "custom"
+      "toggle":
+        "icon": "material/weather-sunny"
+        "name": "深色 / 浅色"
+  "features":
+    - "navigation.instant"
+    - "navigation.tracking"
+    - "navigation.sections"
+    - "navigation.indexes"
+    - "navigation.top"
+    - "navigation.footer"
+    - "toc.follow"
+    - "search.highlight"
+    - "search.suggest"
+    - "search.share"
+    - "content.code.copy"
+    - "content.tabs.link"
+"plugins":
+  - "search":
+      "lang":
+        - "zh"
+        - "en"
+"markdown_extensions":
+  - "admonition"
+  - "attr_list"
+  - "md_in_html"
+  - "footnotes"
+  - "tables"
+  - "toc":
+      "permalink": true
+      "slugify": !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
-  - pymdownx.superfences
+  - "pymdownx.superfences"
+  - "pymdownx.highlight":
+      "anchor_linenums": true
+  - "pymdownx.inlinehilite"
+  - "pymdownx.details"
+  - "pymdownx.tabbed":
+      "alternate_style": true
+  - "pymdownx.caret"
+  - "pymdownx.mark"
+  - "pymdownx.tilde"
+  - "pymdownx.smartsymbols"
+"extra_css":
+  - "assets/mechanics.css"
+  - "assets/theme.css"
+"site_name": "AI System 原理 —— 从一个 Token，到一个 AI System"
+"site_description": "从一个 Token 出发，逐个零件回答「为什么一个 AI System 需要它」"
+"site_url": "https://yiyan-yixing.github.io/ai-system-book/"
+"repo_url": "https://github.com/yiyan-yixing/ai-system-book"
+"repo_name": "yiyan-yixing/ai-system-book"
+"copyright": "本书采用 CC BY-NC-SA 4.0 许可（署名 · 非商业性使用 · 相同方式共享）· 署名「言行致远」"
+"nav":
+  - "封面": "index.md"
+  - "全书目录": "目录大纲.md"
+  - "0. 从一个模型，到一个 AI System（序章）": "正文/00-序章.md"
+  - "上篇 · 零件：从一个 Token，到一个模型":
+      - "第一章 Token 与向量":
+          - "章节导读": "正文/第01章-Token-与向量/index.md"
+          - "1. Token：你和模型之间唯一的通货": "正文/第01章-Token-与向量/01-Token.md"
+          - "2. Embedding：从一个数字到一个向量": "正文/第01章-Token-与向量/02-Embedding.md"
+      - "第二章 神经网络在学什么":
+          - "章节导读": "正文/第02章-神经网络在学什么/index.md"
+          - "3. 神经网络学到了什么：哪些参数是白养的": "正文/第02章-神经网络在学什么/03-神经网络学到了什么.md"
+          - "4. Loss / 反向传播：错怎么摊回每个参数": "正文/第02章-神经网络在学什么/04-Loss与反向传播.md"
+          - "5. 优化器与归一化：RMSNorm、残差、学习率": "正文/第02章-神经网络在学什么/05-优化器与归一化.md"
+      - "第三章 Transformer":
+          - "章节导读": "正文/第03章-Transformer/index.md"
+          - "6. Transformer 为什么改变 AI：从 RNN 到 attention": "正文/第03章-Transformer/06-Transformer为什么改变AI.md"
+          - "7. Attention 在算什么：Q·K、softmax、O(n²)": "正文/第03章-Transformer/07-Attention在算什么.md"
+          - "8. Self-Attention 与上下文：最贵的那块地": "正文/第03章-Transformer/08-Self-Attention与上下文.md"
+          - "9. Multi-Head：为什么一个头不够": "正文/第03章-Transformer/09-Multi-Head.md"
+          - "10. 位置编码：模型怎么知道谁在谁前面": "正文/第03章-Transformer/10-位置编码.md"
+          - "11. FFN：参数的大头在哪里": "正文/第03章-Transformer/11-FFN.md"
+          - "12. 一层 Transformer 全解": "正文/第03章-Transformer/12-一层Transformer全解.md"
+      - "第四章 稀疏与高效":
+          - "章节导读": "正文/第04章-稀疏与高效/index.md"
+          - "13. MoE 稀疏化：参数多、算得少": "正文/第04章-稀疏与高效/13-MoE稀疏化.md"
+          - "14. KV cache 与高效注意力：上下文为什么贵": "正文/第04章-稀疏与高效/14-KV-cache与高效注意力.md"
+          - "15. 量化：4-bit 之后还剩多少": "正文/第04章-稀疏与高效/15-量化.md"
+      - "第五章 预训练":
+          - "章节导读": "正文/第05章-预训练/index.md"
+          - "16. 预训练在训练什么：下一个 token 预测": "正文/第05章-预训练/16-预训练在训练什么.md"
+          - "17. Scaling Law 与数据：词表大小为何影响能力": "正文/第05章-预训练/17-Scaling-Law与数据.md"
+      - "第六章 后训练与对齐":
+          - "章节导读": "正文/第06章-后训练与对齐/index.md"
+          - "18. SFT：指令微调为何有效": "正文/第06章-后训练与对齐/18-SFT.md"
+          - "19. RLHF / RLVR：从人工偏好到可验证奖励": "正文/第06章-后训练与对齐/19-RLHF与RLVR.md"
+          - "20. DPO 与蒸馏：把大模型压进小模型": "正文/第06章-后训练与对齐/20-DPO与蒸馏.md"
+      - "第七章 本地训练":
+          - "章节导读": "正文/第07章-本地训练/index.md"
+          - "21. 从零写一个小 GPT": "正文/第07章-本地训练/21-从零写一个小GPT.md"
+          - "22. 小规模 scaling 实验": "正文/第07章-本地训练/22-小规模scaling实验.md"
+  - "下篇 · 系统：从一个模型，到一个 AI System":
+      - "第八章 Small Model":
+          - "章节导读": "正文/第08章-Small-Model/index.md"
+          - "23. Small Model：小模型不是缩水的大模型": "正文/第08章-Small-Model/23-Small-Model.md"
+      - "第九章 Model Pool / Router":
+          - "章节导读": "正文/第09章-Model-Pool-Router/index.md"
+          - "24. Model Pool：为什么一个模型不够": "正文/第09章-Model-Pool-Router/24-Model-Pool.md"
+          - "25. Router：把对的活派给对的模型": "正文/第09章-Model-Pool-Router/25-Router.md"
+      - "第十章 Context":
+          - "章节导读": "正文/第10章-Context/index.md"
+          - "26. Context：系统里最贵的那块地": "正文/第10章-Context/26-Context.md"
+      - "第十一章 Knowledge / Graph · Memory":
+          - "章节导读": "正文/第11章-Knowledge-Graph-Memory/index.md"
+          - "27. 组织记忆：从文件夹到图谱": "正文/第11章-Knowledge-Graph-Memory/27-组织记忆.md"
+      - "第十二章 Agent":
+          - "章节导读": "正文/第12章-Agent/index.md"
+          - "28. Agent：一个模型不够，一个 agent 也不够": "正文/第12章-Agent/28-Agent.md"
+          - "29. 多 agent 协作：从\"一个\"到\"一群\"": "正文/第12章-Agent/29-多agent协作.md"
+      - "第十三章 Harness":
+          - "章节导读": "正文/第13章-Harness/index.md"
+          - "30. Harness：agent 跑一半崩了怎么办": "正文/第13章-Harness/30-Harness.md"
+      - "第十四章 Evaluation 与闭环":
+          - "章节导读": "正文/第14章-Evaluation-与闭环/index.md"
+          - "31. Evaluation / Gate：没有闸门等于没有系统": "正文/第14章-Evaluation-与闭环/31-Evaluation与Gate.md"
+          - "32. 闭环 / 反馈：同一个坑摔两次": "正文/第14章-Evaluation-与闭环/32-闭环与反馈.md"
+      - "第十五章 AI System":
+          - "章节导读": "正文/第15章-AI-System/index.md"
+          - "33. AI System：零件拼成系统的样子": "正文/第15章-AI-System/33-AI-System.md"
+"extra":
+  "status":
+    "done": "本节已发布"
+    "writing": "本节写作中，尚未发布"
+    "growing": "本章在写，部分节已发布"
+    "planned": "本章尚未开始"
+  "book":
+    "key": "a"
+    "slug": "ai-system-book"
+    "gap": "技术原理"
+    "kicker": "技术原理 · 上篇零件 下篇系统"
+    "title": "AI System 原理"
+    "subtitle": "从一个 Token，到一个 AI System"
+    "lede": "多数讲大模型的书停在结构图或接口文档。这本走第三条路：每讲一个零件，都回答同一个问题——为什么一个 AI System 需要它。"
+    "imprint": "言行致远"
+    "repo": "https://github.com/yiyan-yixing/ai-system-book"
+    "site_url": "https://yiyan-yixing.github.io/ai-system-book/"
+    "prelude_cta": "正文/00-序章.md"
+    "ready": 1
+    "total": 34
+    "chapters": 15
+    "sibling_title": "一人公司：把一个人的边界，扩成一家公司"
+    "sibling_url": "https://yiyan-yixing.github.io/one-person-company-book/"
+  "chapters":
+    - "num": "第一章"
+      "name": "Token 与向量"
+      "theme": ""
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第01章-Token-与向量/index.md"
+      "ready": 0
+      "total": 2
+    - "num": "第二章"
+      "name": "神经网络在学什么"
+      "theme": ""
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第02章-神经网络在学什么/index.md"
+      "ready": 0
+      "total": 3
+    - "num": "第三章"
+      "name": "Transformer"
+      "theme": "一个架构改变一切"
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第03章-Transformer/index.md"
+      "ready": 0
+      "total": 7
+    - "num": "第四章"
+      "name": "稀疏与高效"
+      "theme": "让大模型跑得动"
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第04章-稀疏与高效/index.md"
+      "ready": 0
+      "total": 3
+    - "num": "第五章"
+      "name": "预训练"
+      "theme": "模型怎么学"
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第05章-预训练/index.md"
+      "ready": 0
+      "total": 2
+    - "num": "第六章"
+      "name": "后训练与对齐"
+      "theme": ""
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第06章-后训练与对齐/index.md"
+      "ready": 0
+      "total": 3
+    - "num": "第七章"
+      "name": "本地训练"
+      "theme": "亲手造一个"
+      "part": "上篇 · 零件：从一个 Token，到一个模型"
+      "url": "正文/第07章-本地训练/index.md"
+      "ready": 0
+      "total": 2
+    - "num": "第八章"
+      "name": "Small Model"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第08章-Small-Model/index.md"
+      "ready": 0
+      "total": 1
+    - "num": "第九章"
+      "name": "Model Pool / Router"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第09章-Model-Pool-Router/index.md"
+      "ready": 0
+      "total": 2
+    - "num": "第十章"
+      "name": "Context"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第10章-Context/index.md"
+      "ready": 0
+      "total": 1
+    - "num": "第十一章"
+      "name": "Knowledge / Graph · Memory"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第11章-Knowledge-Graph-Memory/index.md"
+      "ready": 0
+      "total": 1
+    - "num": "第十二章"
+      "name": "Agent"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第12章-Agent/index.md"
+      "ready": 0
+      "total": 2
+    - "num": "第十三章"
+      "name": "Harness"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第13章-Harness/index.md"
+      "ready": 0
+      "total": 1
+    - "num": "第十四章"
+      "name": "Evaluation 与闭环"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第14章-Evaluation-与闭环/index.md"
+      "ready": 0
+      "total": 2
+    - "num": "第十五章"
+      "name": "AI System"
+      "theme": ""
+      "part": "下篇 · 系统：从一个模型，到一个 AI System"
+      "url": "正文/第15章-AI-System/index.md"
+      "ready": 0
+      "total": 1
